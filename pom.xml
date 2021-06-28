@@ -14,6 +14,10 @@
 	<name>ProductMS</name>
 	<description>Product micro-service Springboot</description>
 	<properties>
+	<sonar.projectKey>MounikaPinipe_ProjectRepo
+	</sonar.projectKey>
+	<sonar.organization>MounikaPinipe</sonar.organization>
+	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<java.version>11</java.version>
 	</properties>
 	
@@ -45,13 +49,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-log4j2</artifactId>
-		</dependency>
-		
-		<dependency>
-			<sonar.projectKey>kshitijtambe17_MS_Demo
-			</sonar.projectKey>(gitusername_reponame)
-			<sonar.organization>kshitijtambe17</sonar.organization>
-			<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		</dependency>
 		
 		<dependency>
