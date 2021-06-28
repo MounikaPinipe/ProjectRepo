@@ -48,6 +48,13 @@
 		</dependency>
 		
 		<dependency>
+			<sonar.projectKey>kshitijtambe17_MS_Demo
+			</sonar.projectKey>(gitusername_reponame)
+			<sonar.organization>kshitijtambe17</sonar.organization>
+			<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		</dependency>
+		
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
